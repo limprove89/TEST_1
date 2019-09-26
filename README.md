@@ -1,2 +1,2 @@
 # TEST_1
-practice
+vs code와 git 최초 연동
