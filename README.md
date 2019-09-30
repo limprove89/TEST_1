@@ -30,3 +30,21 @@ ___
 5. 코드 수정 후 add -> commit -> push 진행
 
 [참조] : <https://demun.github.io/vscode-tutorial/git/>
+
+#### git 저장소 이름 변경
+
+기존 원격 저장소 이름 변경 시 URL또한 변경이 된다. git의 url구조가 저장소 이름이 들어가기 때문이다. 
+
+```Markdown
+git remote -v
+  #View existing remotes
+origin  https://github.com/limprove/test-1.git (fetch)
+origin  https://github.com/limprove/test-1.git (push)
+
+git remote set0url origin https://github.com/limprove/git.git
+  #Change the 'origin' remote's URL
+
+git remote -v
+```
+
+
