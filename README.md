@@ -47,4 +47,5 @@ git remote set0url origin https://github.com/limprove/git.git
 git remote -v
 ```
 
+이 후 로컬저장소와의 연동 방법을 찾아야 한다.
 
