@@ -33,7 +33,7 @@ ___
 
 #### git 저장소 이름 변경
 
-기존 원격 저장소 이름 변경 시 URL또한 변경이 된다. git의 url구조가 저장소 이름이 들어가기 때문이다. 
+git remote rename 명령으로 리모트 저장소의 이름을 변경할 수 있다. 이 경우 리모트 저장소의 브랜치 이름 또한 변경된다.
 
 ```Markdown
 git remote -v
@@ -47,5 +47,7 @@ git remote set0url origin https://github.com/limprove/git.git
 git remote -v
 ```
 
-이 후 로컬저장소와의 연동 방법을 찾아야 한다.
+### git 파일 혹은 폴더명 변경
+
+git mv oldName newName 명령으로 이름을 변경할 수 있다. mv명령어는 원래 이동명령이지만, 파일 혹은 폴더명 변경에도 사용한다.
 
