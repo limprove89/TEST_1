@@ -1,19 +1,30 @@
-# TEST_1
+# Git과 visualStudio code의 연동
 
-vs code와 git 최초 연동
+### git을 컨트롤 하는 방법에는 크게 3가지가 있다.
+- CLI (bash, terminal) 
+- GUI (source tree, git monitor)
+- vs code
 
-visual studio와 github 연동을 위한 저장소입니다. 변경사항이 생겼습니다.
-이제는 연동이 완료되었습니다.
+주로 사용되는 방법은 GUI환경과 가끔 CLI의 통제인데, 백업에 기능으로 사용하기에는 텍스트에디터 (vs code)만으로도 충분히 만족스럽게 사용 가능하다.
 
-앞으로의 공부 내용은 매일 Markdown(GFM) 문법으로 정리하여 깃허브에 업로드 할 계획입니다.
+일단 세가지의 구동방식은 당연하겠지만, 동일하다. 그냥 자신에 입맛에 맞는 프로그램을 사용하는것이 좋다.
 
----
-HTML(Markup language)와 병행하여 Markdown을 한다는것은 상당히 괜찮은 아이디어라 생각한다.
+___
 
-vs code와 git의 연동 그리고 심지어 vs code는 GFM 마크다운을 완벽하게 지원한다.(확장으로 스타일링 프로그램을 이용해야 한다고는 하지만,,) 이 모든 부분들이 vs code를 더욱 만족스럽게 하는구낫,,뭐 설정하려고 2시간을 잡아먹다가 markdown -> Markdown으로 고쳐야 한다는걸 깨닫은건 안비밀;
+ ### CLI 
 
-마지막으로 내가 느낀 한가지는
+___
 
-```bash
-매일 히스토리 작성 및 앞으로에 커리어를 위한 노력을 더욱 빡세게 하겠다고 다짐한다.
-```
+### GUI
+
+___
+
+### Vs code 
+
+먼저 github안에 저장소를 생성하고 클론하는 방법이 가장 간편하다. 
+
+1. github 저장소 생성
+2. 저장소 주소 복사
+3. vs code 명령팔렛트 (cmd+shift+p)
+4. git clone 입력 후 주소 입력
+5. 코드 수정 후 add -> commit -> push 진행
