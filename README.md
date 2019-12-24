@@ -57,3 +57,5 @@ git mv oldName newName 명령으로 이름을 변경할 수 있다. mv명령어�
 #### 로컬저장소 생성 후 Git remote
 
 로컬저장소에 프로젝트 생성 시 (react-creat-app 등)
+
+[참조] : <https://velog.io/@loakick/Github-Action-React-Project-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0-nkk30yefpi/>
