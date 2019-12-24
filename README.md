@@ -1,7 +1,8 @@
 # Git과 visualStudio code의 연동
 
-### git을 컨트롤 하는 방법에는 크게 3가지가 있다.
-- CLI (bash, terminal) 
+## git을 컨트롤 하는 방법
+
+- CLI (bash, terminal)
 - GUI (source tree, git monitor)
 - vs code
 
@@ -11,7 +12,7 @@
 
 ___
 
- ### CLI 
+### CLI
 
 ___
 
@@ -19,9 +20,11 @@ ___
 
 ___
 
-### Vs code 
+### Vs code
 
-먼저 github안에 저장소를 생성하고 클론하는 방법이 가장 간편하다. 
+#### Repository 생성 후 Git:clone
+
+먼저 github안에 저장소를 생성하고 클론하는 방법이 가장 간편하다.
 
 1. github 저장소 생성
 2. 저장소 주소 복사
@@ -31,7 +34,7 @@ ___
 
 [참조] : <https://demun.github.io/vscode-tutorial/git/>
 
-#### git 저장소 이름 변경
+##### git 저장소 이름 변경
 
 git remote rename 명령으로 리모트 저장소의 이름을 변경할 수 있다. 이 경우 리모트 저장소의 브랜치 이름 또한 변경된다.
 
@@ -47,7 +50,10 @@ git remote set0url origin https://github.com/limprove/git.git
 git remote -v
 ```
 
-### git 파일 혹은 폴더명 변경
+##### git 파일 혹은 폴더명 변경
 
 git mv oldName newName 명령으로 이름을 변경할 수 있다. mv명령어는 원래 이동명령이지만, 파일 혹은 폴더명 변경에도 사용한다.
 
+#### 로컬저장소 생성 후 Git remote
+
+로컬저장소에 프로젝트 생성 시 (react-creat-app 등)
