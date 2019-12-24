@@ -56,6 +56,22 @@ git mv oldName newName 명령으로 이름을 변경할 수 있다. mv명령어�
 
 #### 로컬저장소 생성 후 Git remote
 
-로컬저장소에 프로젝트 생성 시 (react-creat-app 등)
+로컬저장소에 프로젝트 생성 시 (react-creat-app 등) 로컬과 git repository를 remote 해주어야 한다.
+이 경우, github에 repository 생성은 진행하여야 한다.
+먼저, 로컬저장소의 프로젝트 폴더와 github에 저장소가 준비 된 경우
+터미널에
+
+```bash
+$ git init
+$ git add .
+$ git commit -m "commit message"
+$ git remote add origin #github-주소
+$ git push origin master
+```
+만약, 먼저 생성된 .git 폴더가 있는 경우 rm -rf 명령어를 이용하여 삭제 후 진행한다.
+
+```bash
+$ rm -rf .git
+```
 
 [참조] : <https://velog.io/@loakick/Github-Action-React-Project-%EC%83%9D%EC%84%B1%ED%95%98%EA%B8%B0-nkk30yefpi/>
